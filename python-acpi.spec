@@ -31,6 +31,7 @@ funkcje dotycz±ce stanu baterii. Interfejs nie jest jeszcze stabilny.
 
 %prep
 %setup -q -n %{module}.py-%{version}
+%patch0 -p1
 
 %build
 CFLAGS="%{rpmcflags}"
