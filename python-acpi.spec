@@ -14,7 +14,6 @@ Source1:	%{name}-setup.py
 URL:		http://www.iapp.de/~riemer/projects/acpi.py/
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 1:2.3
-BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
