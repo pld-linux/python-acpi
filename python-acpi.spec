@@ -33,8 +33,7 @@ funkcje dotycz±ce stanu baterii. Interfejs nie jest jeszcze stabilny.
 
 %build
 CFLAGS="%{rpmcflags}"
-export CLFAGS
-
+export CFLAGS
 python %{SOURCE1} build
 
 %install
