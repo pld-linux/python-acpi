@@ -2,8 +2,8 @@
 
 %define         module acpi
 
-Summary:	Module for manipulating ID3 informational tags on MP3 audio files
-Summary(pl):	Modu³ s³u¿±cy do manipulacji znacznikami ID3 plików MP3
+Summary:	Uniform and platform independent interface to ACPI
+Summary(pl):	Jednorodny i niezale¿ny od platformy interfejs do ACPI
 Name:		python-%{module}
 Version:	0.1.0
 Release:	1
@@ -44,7 +44,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
 
 python %{SOURCE1} install \
-        --root=$RPM_BUILD_ROOT --optimize=2
+        --root=$RPM_BUILD_ROOT \
+	--optimize=2
 
 rm -f $RPM_BUILD_ROOT%{py_sitedir}/*.py
 
