@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 
-%define         module acpi
+%define		module acpi
 
 Summary:	Uniform and platform independent interface to ACPI
 Summary(pl):	Jednorodny i niezale¿ny od platformy interfejs do ACPI
@@ -44,7 +44,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
 
 python %{SOURCE1} install \
-        --root=$RPM_BUILD_ROOT \
+	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
 rm -f $RPM_BUILD_ROOT%{py_sitedir}/*.py
