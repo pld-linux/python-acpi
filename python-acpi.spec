@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 
-%define		module acpi
+%define		module	acpi
 
 Summary:	Uniform and platform independent interface to ACPI
 Summary(pl):	Jednorodny i niezale¿ny od platformy interfejs do ACPI
