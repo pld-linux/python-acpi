@@ -2,7 +2,7 @@
 %define		module	acpi
 
 Summary:	Uniform and platform independent interface to ACPI
-Summary(pl):	Jednorodny i niezale¿ny od platformy interfejs do ACPI
+Summary(pl.UTF-8):   Jednorodny i niezaleÅ¼ny od platformy interfejs do ACPI
 Name:		python-%{module}
 Version:	0.3.0
 Release:	1
@@ -21,10 +21,10 @@ The goal of acpi.py is providing of an uniform and platform
 independent interface to ACPI. At the moment it implements only
 battery relevant functions. The interface is not stable yet.
 
-%description -l pl
-Celem modu³u acpi.py jest zapewnienie jednorodnego i niezale¿nego od
-platformy interfejsu do ACPI. Na t± chwilê zaimplementowane s± tylko
-funkcje dotycz±ce stanu baterii. Interfejs nie jest jeszcze stabilny.
+%description -l pl.UTF-8
+Celem moduÅ‚u acpi.py jest zapewnienie jednorodnego i niezaleÅ¼nego od
+platformy interfejsu do ACPI. Na tÄ… chwilÄ™ zaimplementowane sÄ… tylko
+funkcje dotyczÄ…ce stanu baterii. Interfejs nie jest jeszcze stabilny.
 
 %prep
 %setup -q -n ACPI
