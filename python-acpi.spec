@@ -2,7 +2,7 @@
 %define		module	acpi
 
 Summary:	Uniform and platform independent interface to ACPI
-Summary(pl.UTF-8):   Jednorodny i niezależny od platformy interfejs do ACPI
+Summary(pl.UTF-8):	Jednorodny i niezależny od platformy interfejs do ACPI
 Name:		python-%{module}
 Version:	0.3.0
 Release:	1
